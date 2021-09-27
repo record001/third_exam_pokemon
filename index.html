@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <script src="https://kit.fontawesome.com/e7b8e12aee.js" crossorigin="anonymous"></script>
+
+  <title>Pokemon</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    
+
+    <div class="logo">
+      <img src="./img/pokemon_logo 1.png" alt="logo">
+
+      <div class="heart" id="heart">
+        <i class="fa fa-2x fa-heart " aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal__show">
+        <button class="modal__close">></button>
+
+        <div class="fav_card">
+          <div class="wrapper"></div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <form id="form">
+
+      <input type="search" id="search" placeholder="search...">
+
+      <select id="gross">
+        <option value="All">All</option>
+      </select>
+
+      <select id="sort">
+        <option value="All">All</option>
+        
+        <option value="A-Z">A-Z</option>
+        <option value="Z-A">Z-A</option>
+      </select>
+
+      <button id="submit">Search</button>
+    </form>
+
+    <div class="wrapper" id="wrapper">
+
+      <!-- <div class="card" id="card">
+
+        <img class="card__img" src="./img/pokemon_logo 1.png" alt="img">
+
+        <div class="card__title_wrapper">
+          <h1 class="card__title" id="title">pokemon</h1>
+
+          <i class="fa fa-heart-o heart_btn" aria-hidden="true"></i>
+        </div>
+
+
+        <p class="card__subtitle" id="subtitle"> Gross, Poison</p>
+
+        <span class="card__kg" id="kg">6.9 kg</span> <span class="card__age" id="age"> 99 age</span>
+
+      </div> -->
+    </div>
+  </div>
+
+
+
+  <script src="./js/pokemons.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
